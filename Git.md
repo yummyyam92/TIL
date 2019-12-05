@@ -51,7 +51,7 @@ $ git status
 
 ## 3. commmit
 
-> git에서 이력을 남기기 위해서는 커밋을 진행.
+> git에서 이력을 남기기 위해서는 커밋을 진행.햣
 
 ```bash
 $ git commit -m 'Git 기초'
