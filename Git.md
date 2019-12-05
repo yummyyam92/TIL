@@ -40,7 +40,7 @@ Initialized empty Git repository in C:/Users/student/Desktop/TIL/.git/
 ```bash
 $ git add . #현재 디렉토리 모두 stage
 $ git add git. md #특정 파일만 stage
-$ git images/ #특정 폴더만 stage
+$ git images/ #특정 폴더만 stageg
 #위에 세개 같은 말
 #.은 현재 디렉토리(폴더)를 뜻한다
 #항상 `git status`명령어를 통해 상태를 확인하자
@@ -87,7 +87,7 @@ Date:   Thu Dec 5 12:41:26 2019 +0900
 
 ## 1. 원격 저장소 등록
 
-origin`이라는 이름으로 해당 url을 원격 저장소로 등록
+`origin`이라는 이름으로 해당 url을 원격 저장소로 등록
 
 최초에 한번만 하면 된다.
 
@@ -97,7 +97,7 @@ $ git remote add origin https://github.com/yummyyam92/TIL.git
 ```
 
 ```bash
-$ git remote -v #원격 저장소 목록
+$ git remote -v #원격 저장소 목록 보는거
 origin  https://github.com/yummyyam92/TIL.git (fetch)
 origin  https://github.com/yummyyam92/TIL.git (push)
 
